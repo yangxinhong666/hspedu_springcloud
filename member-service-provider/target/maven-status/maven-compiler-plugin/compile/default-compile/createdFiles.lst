@@ -1,0 +1,5 @@
+com\hspedu\springcloud\service\impl\MemberServiceImpl.class
+com\hspedu\springcloud\MemberProviderApplication.class
+com\hspedu\springcloud\service\MemberService.class
+com\hspedu\springcloud\dao\MemberDao.class
+com\hspedu\springcloud\controller\MemberProviderController.class

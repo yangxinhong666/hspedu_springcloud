@@ -1,0 +1,3 @@
+com\hspedu\springcloud\config\CustomizationBean.class
+com\hspedu\springcloud\MemberConsumerApplication.class
+com\hspedu\springcloud\controller\MemberConsumerController.class
