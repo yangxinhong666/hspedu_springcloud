@@ -2,21 +2,21 @@ package com.hspedu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * ClassName: MemberConsumerApplication
+ * ClassName: EurekaApplication
  * Package: com.hspedu.springcloud
  * Description:
  *
  * @Author 杨新鸿
- * @Create 2024/07/31 21:51
+ * @Create 2024/08/07 23:26
  * @Version 1.0
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class MemberConsumerApplication {
+@EnableEurekaServer
+public class EurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MemberConsumerApplication.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 }

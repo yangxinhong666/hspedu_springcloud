@@ -11,6 +11,7 @@
         <module>member-service-provider</module>
         <module>member-service-consumer</module>
         <module>member-common-api</module>
+        <module>member-eureka-server</module>
     </modules>
     <packaging>pom</packaging>
 
