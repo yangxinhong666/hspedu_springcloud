@@ -9,9 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>member-service-provider</module>
+        <module>member-service-provider2</module>
         <module>member-service-consumer</module>
         <module>member-common-api</module>
         <module>member-eureka-server</module>
+        <module>member-eureka-server2</module>
     </modules>
     <packaging>pom</packaging>
 

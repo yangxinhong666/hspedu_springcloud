@@ -25,6 +25,7 @@ public class MemberProviderController {
 
     @GetMapping("/member/get/{id}")
     public Result<?> getMemberById(@PathVariable("id") long id) {
+        log.info("有人访问了provider");
         Member member = memberService.queryMemberById(id);
         if (member != null) {
             return Result.success(member);
